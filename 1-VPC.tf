@@ -5,7 +5,7 @@ resource "aws_vpc" "app1" {
   tags = {
     Name = "app1"
     Service = "application1"
-    Owner = "AppityPrime"
-    Planet = "Domino"
+    Owner = "Domino"
+    Planet = "AppityPrime"
   }
 }
