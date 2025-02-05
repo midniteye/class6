@@ -58,8 +58,8 @@ resource "aws_launch_template" "app1_LT" {
     tags = {
       Name    = "app1_LT"
       Service = "application1"
-      Owner   = "Chewbacca"
-      Planet  = "Mustafar"
+      Owner   = "Domino"
+      Planet  = "AppityPrime"
     }
   }
 
